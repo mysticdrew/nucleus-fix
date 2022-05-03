@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nucleusfix",
+  "name": "Nucleus Fix",
+  "description": "Fixes player and world dimension missmatch issues.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["mysticdrew"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
