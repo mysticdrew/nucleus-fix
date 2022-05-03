@@ -54,25 +54,6 @@ public class NucleusFix
 
     }
 
-    @SideOnly(Side.CLIENT)
-    @SubscribeEvent
-    public void onRespawn(PlayerEvent.PlayerRespawnEvent event)
-    {
-        AbstractClientPlayer player = Minecraft.getMinecraft().player;
-        if (event.player.equals(player))
-        {
-            new Timer().schedule(new TimerTask()
-            {
-                @Override
-                public void run()
-                {
-                    setDim();
-                }
-            }, 3000);
-        }
-
-    }
-
     private void setDim()
     {
 
